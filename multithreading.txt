@@ -1,0 +1,31 @@
+1. Thread kya hota hai?
+
+Ek program ke andar ek chota kaam ya lightweight process hota hai.
+
+Example: Agar aap YouTube app use kar rahe ho:
+
+Video chal raha hai (ek thread)
+
+Audio chal raha hai (dusra thread)
+
+Comments load ho rahe hain (teesra thread)
+
+Yeh sab ek saath chal rahe hote hain → bina disturb kiye.
+
+2. Multithreading kya hai?
+
+Jab ek program ek time par multiple threads chalata hai, usse multithreading kehte hain.
+
+Matlab ek hi program me ek hi waqt par kai kaam.
+
+3. Java me Multithreading kyu?
+
+Java fast banane ke liye multithreading support karta hai.
+
+Aap ek hi program me:
+
+File download kar sakte ho
+
+Saath me user ko progress bar dikha sakte ho
+
+Aur background me calculation bhi chal sakta hai
